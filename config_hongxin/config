@@ -1,0 +1,11 @@
+{
+   "camera" : [ "192.168.1.2" ],
+   "name" : "json",
+   "pushstream" : {
+      "abc" : "bbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "bcd" : "aaaaaaaaaaaaaaaaaaaaaaaaaa"
+   },
+   "snap path" : [ "Pic/" ],
+   "snap time" : [ "" ],
+   "snapp" : "gg"
+}

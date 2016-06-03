@@ -1,0 +1,14 @@
+---- EventContext Matches (13 in 7 files) ----
+EasyHLSSession.cpp (apimodules\easyhlsmodule):#include "EventContext.h"
+QTSSCallbacks.cpp (server.tproj):#include "EventContext.h"
+QTSSFile.h (server.tproj):#include "EventContext.h"
+QTSSPosixFileSysModule.cpp (apimodules\qtssposixfilesysmodule):    // If caller wants async I/O, at this point we should set up the EventContext
+QTSSPosixFileSysModule.cpp (apimodules\qtssposixfilesysmodule):        EventContext* theEventContext = NEW EventContext(EventContext::kInvalidFileDesc, Socket::GetEventThread());
+QTSSPosixFileSysModule.cpp (apimodules\qtssposixfilesysmodule):    EventContext** theContext = NULL;
+QTSSPosixFileSysModule.cpp (apimodules\qtssposixfilesysmodule):        // If this file was opened up in async mode, there is an EventContext associated with it.
+QTSSPosixFileSysModule.cpp (apimodules\qtssposixfilesysmodule):        // (the EventContext will do it), then close the EventContext
+QTSSPosixFileSysModule.cpp (apimodules\qtssposixfilesysmodule):    EventContext** theContext = NULL;
+QTSSSocket.h (server.tproj):#include "EventContext.h"
+QTSSSocket.h (server.tproj):        EventContext fEventContext;
+ReflectorSession.cpp (apimodules\qtssreflectormodule):#include "EventContext.h"
+ReflectorStream.h (apimodules\qtssreflectormodule):#include "EventContext.h"

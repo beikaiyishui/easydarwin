@@ -1,0 +1,5 @@
+---- consoleMain Matches (4 in 4 files) ----
+consoleMain.cpp (f:\mount\svn\c++\src):#include "consoleMain.h"
+Pushstream.cpp (f:\mount\svn\c++\src):#include "consoleMain.h"
+Streamclient.cpp (f:\mount\svn\c++\src):#include "consoleMain.h"
+Talkingthread.cpp (f:\mount\svn\c++\src):#include "consoleMain.h"
